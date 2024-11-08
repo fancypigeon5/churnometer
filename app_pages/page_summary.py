@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def page_summary_body():
 
     st.write("### Quick Project Summary")
@@ -10,7 +11,7 @@ def page_summary_body():
         f"* A **customer** is a person who consumes your service or product.\n"
         f"* A **prospect** is a potential customer.\n"
         f"* A **churned** customer is a user who has stopped using your product or service.\n "
-        f"* This customer has a **tenure** level, the number of months this person " 
+        f"* This customer has a **tenure** level, the number of months this person "
         f"has used our product/service.\n\n"
         f"**Project Dataset**\n"
         f"* The dataset represents a **customer base from a Telco company** "
@@ -22,8 +23,7 @@ def page_summary_body():
     # Link to README file, so the users can have access to full project documentation
     st.write(
         f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/Code-Institute-Solutions/churnometer).")
-    
+        f"[Project README file](https://github.com/fancypigeon5/churnometer/README.md).")
 
     # copied from README file - "Business Requirements" section
     st.success(
@@ -36,6 +36,4 @@ def page_summary_body():
         f"interested in learning from which cluster this prospect will belong in the customer base. "
         f"Based on that, present potential factors that could maintain and/or bring  "
         f"the prospect to a non-churnable cluster."
-        )
-
-        
+    )
